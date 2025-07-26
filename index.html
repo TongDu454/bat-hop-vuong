@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bắt Hộp Vuông</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Bắt Hộp Vuông 🎮</h1>
+  <div id="gameArea">
+    <div id="player"></div>
+    <div id="fallingBox"></div>
+    <div id="gameOverScreen">
+      <h2 id="gameOverText"></h2>
+      <button onclick="startGame()">Chơi lại 🔁</button>
+    </div>
+  </div>
+  <div id="info">
+    <p>⏱ Thời gian: <span id="time">30</span>s</p>
+    <p>⭐ Điểm: <span id="score">0</span></p>
+    <p>❌ Miss: <span id="miss">0</span></p>
+    <p>🏆 Điểm cao: <span id="highScore">0</span></p>
+  </div>  
+  <script src="script.js"></script>
+  
+</body>
+</html>
